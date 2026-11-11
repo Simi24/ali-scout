@@ -1,0 +1,369 @@
+{
+ "data": {
+  "currentPage": 1,
+  "evaViewList": [
+   {
+    "aigc": false,
+    "anonymous": false,
+    "buyerAddFbDays": 0,
+    "buyerCountry": "ES",
+    "buyerEval": 100,
+    "buyerFeedback": "De muy buena calidad. Viene con un soporte para mueble y con un soporte de pared con cinta de doble cara. Se conecta a Tuya sin problema y muestra humedad y temperatura. Lo he integrado usando la integración de Tuya en Home Assistant también. ",
+    "buyerHeadPortrait": "",
+    "buyerName": "A***r",
+    "buyerProductFeedBack": "",
+    "buyerTranslationFeedback": "Ottima qualità. Fornito con un supporto per mobili e un supporto da parete con nastro biadesivo. Si connette a Tuya senza problemi e visualizza umidità e temperatura. L'ho integrato anche utilizzando l'integrazione Tuya in Home Assistant.",
+    "downVoteCount": 0,
+    "evalDate": "16 Feb 2026",
+    "evaluationId": 30100121013722434,
+    "evaluationIdStr": "30100121013722434",
+    "images": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/Af34c6e8d4b1b4123a1bd86f1dc55a0c1J.jpg"
+    ],
+    "independentSite": false,
+    "logistics": "AliExpress Standard Shipping",
+    "reviewLabel1": "Intuitivo",
+    "reviewLabel2": "Reattività",
+    "reviewLabel3": "Funzionalità",
+    "reviewLabelValue1": "Buono",
+    "reviewLabelValue2": "Veloce",
+    "reviewLabelValue3": "Veloce",
+    "reviewType": "REVIEW",
+    "samePurchaseSuggestion": "Acquista uguale",
+    "selectedIcon": "https://ae-pic-a1.aliexpress-media.com/kf/S9ceacc1f08d5432a9aa78757e97cad58f/221x221.png",
+    "selectedReview": true,
+    "skuId": 12000032788061643,
+    "skuInfo": "Colore:cromo Spedizioni da:China Mainland",
+    "status": "1",
+    "thirdParty": false,
+    "thumbnails": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/Af34c6e8d4b1b4123a1bd86f1dc55a0c1J.jpg_220x220.jpg"
+    ],
+    "trendyol": false,
+    "upVoteCount": 0
+   },
+   {
+    "aigc": false,
+    "anonymous": true,
+    "buyerAddFbDays": 0,
+    "buyerCountry": "DE",
+    "buyerEval": 100,
+    "buyerFeedback": "Great value for the price. Comes with wall mounting option and battery. Easy integration in Home Assistant using Z2M.",
+    "buyerName": "A***r",
+    "buyerProductFeedBack": "",
+    "buyerTranslationFeedback": "Ottimo rapporto qualità prezzo. Viene fornito con opzione di montaggio a parete e batteria. Facile integrazione in Home Assistant utilizzando Z2M.",
+    "downVoteCount": 0,
+    "evalDate": "10 Set 2026",
+    "evaluationId": 30105915862381840,
+    "evaluationIdStr": "30105915862381840",
+    "images": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/A842a1d2cd4fd471382679b6df951852cW.jpg"
+    ],
+    "independentSite": false,
+    "logistics": "AliExpress Standard Shipping",
+    "reviewLabel1": "Intuitivo",
+    "reviewLabel2": "Reattività",
+    "reviewLabel3": "Funzionalità",
+    "reviewLabelValue1": "Buono",
+    "reviewLabelValue2": "Veloce",
+    "reviewLabelValue3": "Veloce",
+    "reviewType": "REVIEW",
+    "samePurchaseSuggestion": "Acquista uguale",
+    "selectedIcon": "https://ae-pic-a1.aliexpress-media.com/kf/S9ceacc1f08d5432a9aa78757e97cad58f/221x221.png",
+    "selectedReview": true,
+    "skuId": 12000032788061643,
+    "skuInfo": "Colore:cromo Spedizioni da:China Mainland",
+    "status": "1",
+    "thirdParty": false,
+    "thumbnails": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/A842a1d2cd4fd471382679b6df951852cW.jpg_220x220.jpg"
+    ],
+    "trendyol": false,
+    "upVoteCount": 0,
+    "buyerHeadPortrait": ""
+   },
+   {
+    "aigc": false,
+    "anonymous": false,
+    "buyerAddFbDays": 0,
+    "buyerCountry": "CH",
+    "buyerEval": 100,
+    "buyerFeedback": "Very nice device for the price. It's pretty compact and comes with a built in stand plus a removable adhesive backplate for wall mounting.",
+    "buyerName": "A***r",
+    "buyerProductFeedBack": "",
+    "buyerTranslationFeedback": "Dispositivo molto bello per il prezzo. È abbastanza compatto e viene fornito con un supporto integrato e una piastra posteriore adesiva rimovibile per il montaggio a parete.",
+    "downVoteCount": 0,
+    "evalDate": "20 Ago 2026",
+    "evaluationId": 30106317709864878,
+    "evaluationIdStr": "30106317709864878",
+    "images": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/Ac2c76c61a8774150bc8b964c7550db21y.jpg"
+    ],
+    "independentSite": false,
+    "logistics": "AliExpress Standard Shipping",
+    "reviewLabel1": "Intuitivo",
+    "reviewLabel2": "Reattività",
+    "reviewLabel3": "Funzionalità",
+    "reviewLabelValue1": "Buono",
+    "reviewLabelValue2": "Veloce",
+    "reviewLabelValue3": "Veloce",
+    "reviewType": "REVIEW",
+    "samePurchaseSuggestion": "Acquista uguale",
+    "selectedIcon": "https://ae-pic-a1.aliexpress-media.com/kf/S9ceacc1f08d5432a9aa78757e97cad58f/221x221.png",
+    "selectedReview": true,
+    "skuId": 12000032788061646,
+    "skuInfo": "Colore:Bianco Verde Spedizioni da:China Mainland",
+    "status": "1",
+    "thirdParty": false,
+    "thumbnails": [
+     "https://ae-pic-a1.aliexpress-media.com/kf/Ac2c76c61a8774150bc8b964c7550db21y.jpg_220x220.jpg"
+    ],
+    "trendyol": false,
+    "upVoteCount": 0,
+    "buyerHeadPortrait": ""
+   }
+  ],
+  "filterInfo": {
+   "currentFilter": "all",
+   "filterStatistic": [
+    {
+     "filterCode": "additional",
+     "filterCount": 3
+    },
+    {
+     "filterCode": "local",
+     "filterCount": 6
+    },
+    {
+     "filterCode": "with_personal",
+     "filterCount": 0
+    },
+    {
+     "filterCode": "image",
+     "filterCount": 72
+    },
+    {
+     "filterCode": "all",
+     "filterCount": 344
+    }
+   ]
+  },
+  "impressionDTOList": [
+   {
+    "content": "letture accurate",
+    "emotion": 1,
+    "id": "16036815",
+    "num": 31,
+    "productId": 1005005372282766,
+    "type": "impression"
+   },
+   {
+    "content": "consegna veloce",
+    "emotion": 1,
+    "id": "34273699",
+    "num": 28,
+    "productId": 1005005372282766,
+    "type": "impression"
+   },
+   {
+    "content": "funziona alla grande",
+    "emotion": 1,
+    "id": "16036819",
+    "num": 23,
+    "productId": 1005005372282766,
+    "type": "impression"
+   },
+   {
+    "content": "pienamente compatibile",
+    "emotion": 1,
+    "id": "16036825",
+    "num": 22,
+    "productId": 1005005372282766,
+    "type": "impression"
+   },
+   {
+    "content": "compatibile con l'assistente domestico",
+    "emotion": 1,
+    "id": "16036817",
+    "num": 17,
+    "productId": 1005005372282766,
+    "type": "impression"
+   },
+   {
+    "content": "alto rapporto qualità prezzo",
+    "emotion": 1,
+    "id": "56552037",
+    "num": 16,
+    "productId": 1005005372282766,
+    "type": "impression"
+   }
+  ],
+  "pageSize": 20,
+  "productEvaluationStatistic": {
+   "evarageStar": 4.9,
+   "evarageStarRage": 98.4,
+   "fiveStarNum": 327,
+   "fiveStarRate": 95.1,
+   "fourStarNum": 9,
+   "fourStarRate": 2.6,
+   "negativeNum": 3,
+   "negativeRate": 0.8,
+   "neutralNum": 5,
+   "neutralRate": 1.5,
+   "oneStarNum": 3,
+   "oneStarRate": 0.8,
+   "positiveNum": 336,
+   "positiveRate": 97.7,
+   "threeStarNum": 5,
+   "threeStarRate": 1.5,
+   "totalNum": 344,
+   "twoStarNum": 0,
+   "twoStarRate": 0.0
+  },
+  "productType": "ORDINARY",
+  "reviewStructuredLabelDTOList": [
+   {
+    "categoryReviewLabelDTOList": [
+     {
+      "categoryId": 200003818,
+      "labelId": 3106287364,
+      "labelName": "Intuitivo",
+      "labelValueOptions": [
+       {
+        "countPercentage": "2%",
+        "displayOption": 1,
+        "labelValueId": 1400188970,
+        "labelValueName": "Difficile",
+        "score": -1
+       },
+       {
+        "countPercentage": "9%",
+        "displayOption": 2,
+        "labelValueId": 600438174,
+        "labelValueName": "Non male ",
+        "score": 0
+       },
+       {
+        "countPercentage": "89%",
+        "displayOption": 3,
+        "labelValueId": 603538814,
+        "labelValueName": "Buono",
+        "score": 1
+       }
+      ]
+     }
+    ],
+    "count": 165,
+    "labelId": 3106287364,
+    "processBar": 2.87567567567568,
+    "translateContent": "Intuitivo : Buono",
+    "valueId": 603538814
+   }
+  ],
+  "totalNum": 344,
+  "totalPage": 18,
+  "version": "0.0.0"
+ },
+ "helpful": {
+  "30097108674119958": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "60098876240246112": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "50213554952333762": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "30098499985824383": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30100121013722434": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30100727832083581": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "50229303760828462": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "30099905344229660": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "50220640100547730": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30105915862381840": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30099601039024061": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30099688977357915": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30102924127663496": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "30106317709864878": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "50197539756051698": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30096031537523328": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "30097247749305189": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30106717894294497": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  },
+  "30101675469832288": {
+   "showButton": "yes",
+   "useful": 1,
+   "useless": 0
+  },
+  "30107236490662060": {
+   "showButton": "yes",
+   "useful": 0,
+   "useless": 0
+  }
+ }
+}

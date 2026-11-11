@@ -1,0 +1,33 @@
+[project]
+name = "ali-scout"
+version = "0.1.0"
+description = "Search AliExpress, read reviews and judge prices against the 30-day low, built for LLM agents"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Simi24", email = "74307062+Simi24@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.14.3",
+]
+
+[project.optional-dependencies]
+mcp = ["fastmcp>=2.0"]
+
+[project.scripts]
+ali-scout = "ali_scout.cli:main"
+ali-scout-mcp = "ali_scout.mcp_server:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 140
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
