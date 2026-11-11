@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ali-scout": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "ali-scout[mcp] @ git+https://github.com/Simi24/ali-scout",
+        "ali-scout-mcp"
+      ],
+      "env": {
+        "ALI_SCOUT_LOCALE": "it"
+      }
+    }
+  }
+}

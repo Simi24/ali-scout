@@ -23,7 +23,48 @@ Not available: store names and per-variant prices — the product page goes thro
 
 ```bash
 uv tool install git+https://github.com/Simi24/ali-scout
+export ALI_SCOUT_LOCALE=it   # optional default
 ```
+
+Or let your agent do it: [AGENTS.md](AGENTS.md) tells any coding agent how to install and set up the tool.
+
+## Use it from an agent
+
+The CLI works with any agent that has a shell. On top of it:
+
+**Skill** — `skills/ali-scout/SKILL.md` follows the open [Agent Skills](https://agentskills.io) format, read by Claude Code, Codex, Gemini CLI, Cursor, GitHub Copilot and others. Copy or symlink `skills/ali-scout` into your agent's skills folder (e.g. `~/.claude/skills/`).
+
+**Claude Code plugin** — the repo is also a plugin (skill + MCP server):
+
+```text
+/plugin marketplace add Simi24/shopping-scouts
+/plugin install ali-scout@shopping-scouts
+```
+
+**MCP server** — for agents without a shell. It runs straight from GitHub with `uvx`, nothing to install:
+
+```json
+{
+  "mcpServers": {
+    "ali-scout": {
+      "command": "uvx",
+      "args": ["--from", "ali-scout[mcp] @ git+https://github.com/Simi24/ali-scout", "ali-scout-mcp"],
+      "env": { "ALI_SCOUT_LOCALE": "it" }
+    }
+  }
+}
+```
+
+This `mcpServers` block works in Claude Desktop, Cursor (`~/.cursor/mcp.json`) and Gemini CLI (`~/.gemini/settings.json`). In VS Code use the same server under `"servers"` in `.vscode/mcp.json`. In Codex (`~/.codex/config.toml`):
+
+```toml
+[mcp_servers.ali_scout]
+command = "uvx"
+args = ["--from", "ali-scout[mcp] @ git+https://github.com/Simi24/ali-scout", "ali-scout-mcp"]
+env = { ALI_SCOUT_LOCALE = "it" }
+```
+
+All the tools in the family: [shopping-scouts](https://github.com/Simi24/shopping-scouts).
 
 ## Usage
 
@@ -34,31 +75,6 @@ ali-scout --locale de search "running gloves" --json
 ```
 
 Storefronts: `it` (default), `de`, `us`. Set a default with `ALI_SCOUT_LOCALE`. Adding one is a line in `src/ali_scout/storefront.py`.
-
-## Agent skill
-
-`skills/ali-scout/SKILL.md` tells an agent when to use the tool, how to keep within the rate limit and how to read the price verdict. For Claude Code:
-
-```bash
-git clone https://github.com/Simi24/ali-scout
-ln -s "$PWD/ali-scout/skills/ali-scout" ~/.claude/skills/ali-scout
-```
-
-## MCP server (optional)
-
-```bash
-uv tool install "ali-scout[mcp] @ git+https://github.com/Simi24/ali-scout"
-```
-
-```json
-{
-  "mcpServers": {
-    "ali-scout": { "command": "ali-scout-mcp" }
-  }
-}
-```
-
-Tools: `search_products`, `product_reviews`.
 
 ## Development
 

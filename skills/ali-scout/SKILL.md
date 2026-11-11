@@ -5,7 +5,10 @@ description: Search products on AliExpress, read their reviews and judge whether
 
 # ali-scout
 
-The `ali-scout` command must be on the PATH (`uv tool install git+https://github.com/Simi24/ali-scout`).
+## Setup (only if the command is missing)
+
+- `ali-scout` not found: propose `uv tool install git+https://github.com/Simi24/ali-scout` and wait for the person to agree.
+- Default storefront: set `ALI_SCOUT_LOCALE` (e.g. `it`) or pass the option on each call.
 
 ## Commands
 
